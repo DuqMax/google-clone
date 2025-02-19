@@ -1,0 +1,125 @@
+/* Global Styles */
+.search-block {
+    margin-top: 120px;
+}
+
+/* Logo */
+#logo {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Search Wrapper */
+.search-wrapper {
+    margin: 25px auto;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    height: 50px;
+    width: 600px;
+    gap: 10px;
+    border: 1px solid silver;
+    border-radius: 40px;
+    padding-left: 10px;
+    box-shadow: 0px 5px 10px #dcdcdc;
+}
+
+#input {
+    margin: 0 auto;
+    width: 550px;
+    line-height: 30px;
+    border: none;
+    outline: none;
+    padding: 20px 5px; 
+    border-radius: 40px;
+    font-size: 16px;
+}
+
+#search-img {
+    margin-left: 5px;
+    width: 24px;
+    height: 24px;
+    align-self: center;
+}
+
+/* Button Wrapper */
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.btn {
+    border: none;
+    padding: 15px 30px;
+    background-color: #f5f5f5;
+    font-family: Helvetica, Verdana, Arial, sans-serif;
+}
+
+.right-apps {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-top: 15px;
+    margin-right: 15px;
+    gap: 20px;
+}
+
+#github-logo {
+    width: 42px;
+    height: 42px;
+}
+
+p {
+    font-size: 16px;
+    color: #4d4d4d;
+    font-family: Helvetica, Verdana, Arial, sans-serif;
+}
+
+#github-logo:hover {
+    cursor: pointer;
+    animation: zoom-in-zoom-out 1s ease infinite;
+}
+
+p:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.btn:focus {
+    outline: 2px solid #dcdcdc;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: bisque;
+    animation: zoom-in-zoom-out 1s ease infinite;
+}
+
+#google-btn {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+#lucky-btn {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+/* Hover Effects */
+.search-wrapper:hover {
+    border-color: #dcdcdc;
+}
+
+/* Keyframes */
+@keyframes zoom-in-zoom-out {
+    0% {
+      scale: 100%;
+    }
+    50% {
+      scale: 110%;
+    }
+    100% {
+      scale: 100%;
+    }
+}
